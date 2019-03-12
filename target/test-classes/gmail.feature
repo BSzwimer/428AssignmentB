@@ -1,4 +1,4 @@
-Feature: Amazon
+Feature: Gmail
 
   Scenario: Sending an email to a recipient after attaching an image
     Given I am logged in as a Gmail user
@@ -20,10 +20,6 @@ Feature: Amazon
     When I click the attach icon
     Then I should be able to select the zip file and upload it by selecting open
     Then The attachment should be a part of the email
-#    And I want to attach another file
-#    When I click the attach icon
-#    Then I should be able to select an image and upload it by selecting open
-#    Then The attachment should be a part of the email
     When I click Send
     Then the email should be sent
     And I am returned to the main Gmail page

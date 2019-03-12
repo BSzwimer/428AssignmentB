@@ -12,67 +12,75 @@
     <date>2017-02-28T21:55:09-05:00</date>
     <runTimeInMillis>5324</runTimeInMillis>
     <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
- &lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/knam/.m2/repository/org/seleniumhq/selenium/selenium-java/3.2.0/selenium-java-3.2.0.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/knam/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.2.0/selenium-chrome-driver-3.2.0.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/knam/dev/selenium-server-standalone-3.1.0.jar&lt;/span&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/knam/.m2/repository/com/kevinnam/assignment-2-ecse428/1.0-SNAPSHOT/assignment-2-ecse428-1.0-SNAPSHOT.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
-	&lt;tr class="slimRowTitle"&gt;
-		&lt;td&gt;import&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr class="slimRowColor0"&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.slim.test&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr class="slimRowColor1"&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr class="slimRowColor0"&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;org.openqa.selenium&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr class="slimRowColor1"&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;com.kevinnam.fitnesse&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;&lt;table&gt;
-	&lt;tr&gt;
-		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;SeleniumTest&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;Value1&lt;/td&gt;
-		&lt;td&gt;Value2&lt;/td&gt;
-		&lt;td&gt;add?&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;3.0&lt;/td&gt;
-		&lt;td&gt;5.0&lt;/td&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;8.0&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;2.0&lt;/td&gt;
-		&lt;td&gt;3.5&lt;/td&gt;
-		&lt;td&gt;[&lt;span class="diff"&gt;5&lt;/span&gt;.5] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span class="diff"&gt;7&lt;/span&gt;&lt;span class="fail"&gt;.5]&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;6.0&lt;/td&gt;
-		&lt;td&gt;3.0&lt;/td&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;9.0&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;5.0&lt;/td&gt;
-		&lt;td&gt;2.0&lt;/td&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;7.0&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;&lt;table&gt;
-	&lt;tr&gt;
-		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;AmazonFixture&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;go to url&lt;/td&gt;
-		&lt;td&gt;currentUrl?&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;http://www.google.ca&lt;/td&gt;
-		&lt;td&gt;http://www.google.ca &lt;span class="error"&gt;Method currentUrl[0] not found in com.kevinnam.fitnesse.AmazonFixture.&lt;/span&gt;&lt;/td&gt;
-	&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;&lt;br/&gt;</content>
+        &lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath:
+        /Users/knam/.m2/repository/org/seleniumhq/selenium/selenium-java/3.2.0/selenium-java-3.2.0.jar&lt;/span&gt;&lt;br/&gt;&lt;span
+        class="meta"&gt;classpath:
+        /Users/knam/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.2.0/selenium-chrome-driver-3.2.0.jar&lt;/span&gt;&lt;br/&gt;&lt;span
+        class="meta"&gt;classpath: /Users/knam/dev/selenium-server-standalone-3.1.0.jar&lt;/span&gt;&lt;br/&gt;&lt;span
+        class="meta"&gt;classpath:
+        /Users/knam/.m2/repository/com/kevinnam/assignment-2-ecse428/1.0-SNAPSHOT/assignment-2-ecse428-1.0-SNAPSHOT.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+        &lt;tr class="slimRowTitle"&gt;
+        &lt;td&gt;import&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="slimRowColor0"&gt;
+        &lt;td&gt;&lt;span class="pass"&gt;fitnesse.slim.test&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="slimRowColor1"&gt;
+        &lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="slimRowColor0"&gt;
+        &lt;td&gt;&lt;span class="pass"&gt;org.openqa.selenium&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class="slimRowColor1"&gt;
+        &lt;td&gt;&lt;span class="pass"&gt;com.kevinnam.fitnesse&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;&lt;table&gt;
+        &lt;tr&gt;
+        &lt;td colspan="3"&gt;&lt;span class="pass"&gt;SeleniumTest&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;Value1&lt;/td&gt;
+        &lt;td&gt;Value2&lt;/td&gt;
+        &lt;td&gt;add?&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;3.0&lt;/td&gt;
+        &lt;td&gt;5.0&lt;/td&gt;
+        &lt;td&gt;&lt;span class="pass"&gt;8.0&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;2.0&lt;/td&gt;
+        &lt;td&gt;3.5&lt;/td&gt;
+        &lt;td&gt;[&lt;span class="diff"&gt;5&lt;/span&gt;.5] &lt;span class="fail"&gt;expected [&lt;/span&gt;&lt;span
+        class="diff"&gt;7&lt;/span&gt;&lt;span class="fail"&gt;.5]&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;6.0&lt;/td&gt;
+        &lt;td&gt;3.0&lt;/td&gt;
+        &lt;td&gt;&lt;span class="pass"&gt;9.0&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;5.0&lt;/td&gt;
+        &lt;td&gt;2.0&lt;/td&gt;
+        &lt;td&gt;&lt;span class="pass"&gt;7.0&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;&lt;table&gt;
+        &lt;tr&gt;
+        &lt;td colspan="2"&gt;&lt;span class="pass"&gt;AmazonFixture&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;go to url&lt;/td&gt;
+        &lt;td&gt;currentUrl?&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;http://www.google.ca&lt;/td&gt;
+        &lt;td&gt;http://www.google.ca &lt;span class="error"&gt;Method currentUrl[0] not found in
+        benjmatt.fitnesse.GmailFixture.&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;&lt;br/&gt;</content>
     <relativePageName>TwoMinuteExample</relativePageName>
             <instructions>
             <instructionResult>
@@ -293,7 +301,8 @@
                     <status>error</status>
                     <instructionId>decisionTable_2_6</instructionId>
                               <type>ReturnedValueExpectation</type>
-                                        <evaluationMessage>Method currentUrl[0] not found in com.kevinnam.fitnesse.AmazonFixture.</evaluationMessage>
+                                        <evaluationMessage>Method currentUrl[0] not found in
+                                            benjmatt.fitnesse.GmailFixture.</evaluationMessage>
                   </expectation>
               </instructionResult>
           </instructions>
